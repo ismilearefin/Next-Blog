@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 const buttonDesign=`transition border-b-0 duration-300 ease-in hover:border-b-2 hover:border-gray-500`
 
-
 export default function Navbar() {
   return (
     <div className=''>
@@ -16,7 +15,6 @@ export default function Navbar() {
             <Link className={buttonDesign} href={'/'}>Feedbacks</Link>
            <p>|</p>
             <Link className={buttonDesign} href={'/'}>Login</Link>
-           {/* <p>|</p> */}
            </div>
         </nav>
     </div>
