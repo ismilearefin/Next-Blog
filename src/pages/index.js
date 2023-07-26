@@ -1,22 +1,17 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import RootLayout from '../../components/Layouts/RootLayout'
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import RootLayout from "../components/Layouts/RootLayout";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div>
-<h1>Hello</h1>
+      <h1>Hello</h1>
     </div>
-  )
+  );
 }
-
 
 Home.getLayout = function getLayout(page) {
-  return (
-<RootLayout>
-  {page}
-</RootLayout>
-  )
-}
+  return <RootLayout>{page}</RootLayout>;
+};
