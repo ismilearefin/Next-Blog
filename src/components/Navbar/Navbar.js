@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logo from '../../../public/MOBlog.png'
 import Link from 'next/link'
 
-const buttonDesign=`transition border-b-0 duration-300 ease-in hover:border-b-2 hover:border-gray-500`
+const buttonDesign=`transition border-b-0 duration-300 ease-in hover:text-[#fc0254]`
 
 export default function Navbar() {
   return (

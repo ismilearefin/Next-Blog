@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className="text-right text-gray-300">Copyright ©2023 All rights reserved | This template is made with  by Ismile Arefin</p>
+      <p className="text-right text-gray-400">Copyright ©2023 All rights reserved | This template is made with  by Ismile Arefin</p>
     </div>
   )
 }

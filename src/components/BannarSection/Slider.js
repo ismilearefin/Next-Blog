@@ -9,8 +9,8 @@ const contentStyle = {
 const Slider = () => {
 
   return (
-    <div className={` bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1068&q=80')] bg-center`}>
-        <Carousel autoplay className=''>
+    <div className={`bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1068&q=80')] bg-center`}>
+        <Carousel  className='bg-gradient-to-r from-[#fc8db0] '>
       <div >
         <div className=' w-1/2  min-h-[500px] flex justify-center items-center'>
         <p style={contentStyle} className='text-4xl font-semibold italic'>MoBlog is a personal blog where I share my thoughts, experiences, and interests. I write about a variety of topics, including but not limited to:</p>
