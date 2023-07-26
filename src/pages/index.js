@@ -7,11 +7,11 @@ import LatestBlogs from "@/components/LatestBlogs/LatestBlogs";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({allBlogs}) {
   return (
     <div className="">
       <Slider></Slider>
-      <LatestBlogs></LatestBlogs>
+      <LatestBlogs allBlogs={allBlogs}></LatestBlogs>
     </div>
   );
 }
@@ -19,3 +19,15 @@ export default function Home() {
 Home.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
+
+
+export const getStaticProps = async () =>{
+  const res = await fetch('http://localhost:5000/blogs')
+  const data = await res.json();
+
+  return{
+    props:{
+      allBlogs: data
+    }
+  }
+}
