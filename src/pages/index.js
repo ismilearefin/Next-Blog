@@ -1,13 +1,15 @@
-import Image from "next/image";
+
 import { Inter } from "next/font/google";
 import RootLayout from "../components/Layouts/RootLayout";
+import Slider from "@/components/BannarSection/Slider";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="">
-      <h1>Hello</h1>
+      <Slider></Slider>
     </div>
   );
 }
