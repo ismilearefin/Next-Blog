@@ -1,4 +1,5 @@
 {
+  
     "blogs": [
       {
         "id": "1",
@@ -42,5 +43,73 @@
         "publishDate": "2023-07-25",
         "blogContent": "Fusce eu scelerisque odio, at pellentesque nulla. Suspendisse potenti. Sed id feugiat odio. Praesent finibus, lorem eu posu"
       }
-    ]
-}  
+    ],
+    
+      "feedbacks": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "age": 30,
+          "rating": 5,
+          "feedback": "MoBlog is amazing! I love the variety of blogs available and the user-friendly interface."
+        },
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "age": 25,
+          "rating": 4,
+          "feedback": "Great content and easy navigation. I wish there were more blogs on technology."
+        },
+        {
+          "id": "3",
+          "name": "David Johnson",
+          "age": 28,
+          "rating": 4,
+          "feedback": "MoBlog has been a valuable resource for discovering new perspectives. Keep up the good work!"
+        },
+        {
+          "id": "4",
+          "name": "Emily Brown",
+          "age": 22,
+          "rating": 3,
+          "feedback": "The blogs are interesting, but the website could use more visual appeal."
+        },
+        {
+          "id": "5",
+          "name": "Michael Williams",
+          "age": 35,
+          "rating": 5,
+          "feedback": "MoBlog has become my go-to platform for reading insightful and thought-provoking blogs."
+        },
+        {
+          "id": "6",
+          "name": "Sarah Lee",
+          "age": 29,
+          "rating": 4,
+          "feedback": "I enjoy the diverse range of topics covered on MoBlog. It's a wonderful platform for learning."
+        },
+        {
+          "id": "7",
+          "name": "James Anderson",
+          "age": 32,
+          "rating": 3,
+          "feedback": "The overall experience is good, but I encountered some loading issues on mobile devices."
+        },
+        {
+          "id": "8",
+          "name": "Olivia Taylor",
+          "age": 27,
+          "rating": 5,
+          "feedback": "MoBlog's content is well-curated, and I appreciate the regular updates on trending topics."
+        },
+        {
+          "id": "9",
+          "name": "Ethan Martinez",
+          "age": 31,
+          "rating": 5,
+          "feedback": "I love the simplicity of MoBlog. It allows the focus to be on the blogs themselves."
+        }
+      ]
+    }
+
+

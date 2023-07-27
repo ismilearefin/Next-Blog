@@ -10,9 +10,9 @@ export default function Navbar() {
        <div className='flex justify-center'> <Image src={logo} alt='logo' width={150} height={150}></Image></div>
         <nav className='flex justify-center mb-4'>
            <div className='w-1/3 flex justify-center gap-3 text-lg'>
-           <Link className={buttonDesign} href={'/'}>Blogs</Link>
+           <Link className={buttonDesign} href={'/'}>Home</Link>
            <p>|</p>
-            <Link className={buttonDesign} href={'/'}>Feedbacks</Link>
+            <Link className={buttonDesign} href={'/dashboard/allblogs'}>Dashboard</Link>
            <p>|</p>
             <Link className={buttonDesign} href={'/'}>Login</Link>
            </div>
